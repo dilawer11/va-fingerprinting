@@ -1,0 +1,782 @@
+[
+    {
+        "invokePhrase": "play music",
+        "verifyPhrase": "play music",
+        "expectedReply": null,
+        "type": "streaming",
+        "stop": true
+    },
+    {
+        "invokePhrase": "play music from Spotify",
+        "verifyPhrase": "play music from spotify",
+        "expectedReply": null,
+        "type": "streaming",
+        "stop": true
+    },
+    {
+        "invokePhrase": "play iHeartRadio",
+        "verifyPhrase": "play iheartradio",
+        "expectedReply": null,
+        "type": "streaming",
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from Bloomberg",
+        "verifyPhrase": "play news from bloomberg",
+        "expectedReply": "From Bloomberg",
+        "type": "streaming",
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from ABC",
+        "verifyPhrase": "play news from a. b. c.",
+        "expectedReply": "From ABC News...",
+        "type": "streaming",
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from CBS news",
+        "verifyPhrase": "play news from c. b. s. news",
+        "expectedReply": null,
+        "type": "streaming",
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from CNBC",
+        "verifyPhrase": "play news from c. n. b. c.",
+        "expectedReply": "From CNBC",
+        "type": "streaming",
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from CNN",
+        "verifyPhrase": "play news from c. n. n.",
+        "expectedReply": "From CNN",
+        "type": "streaming",
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from The Economist",
+        "verifyPhrase": "play news from the economist",
+        "expectedReply": "From Economist Radio",
+        "type": "streaming",
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from ESPN",
+        "verifyPhrase": "play news from e. s. p. n.",
+        "expectedReply": "From ESPN",
+        "type": "streaming",
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from Fox News",
+        "verifyPhrase": "play news from fox news",
+        "expectedReply": "In Fox News",
+        "type": "streaming",
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from Newsy",
+        "verifyPhrase": "play news from newsy",
+        "expectedReply": "from Newsy, the latest headlines",
+        "type": "streaming",
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from NPR",
+        "verifyPhrase": "play news from n. p. r.",
+        "expectedReply": null,
+        "type": "streaming",
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from USA today",
+        "verifyPhrase": "play news from u. s. a. today",
+        "expectedReply": "From USA TODAY",
+        "type": "streaming",
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from The Wall Street Journal",
+        "verifyPhrase": "play news from the wall street journal",
+        "expectedReply": "From the Wall Street Journal",
+        "type": "streaming",
+        "stop": true
+    },
+    {
+        "invokePhrase": "open marraige proposal and give me a proposal line",
+        "label": "skill: marriage proposal",
+        "expectedReply": null,
+        "verifyPhrase": "open marriage proposal and give me a proposal line",
+        "type": "skill",
+        "stop": false,
+        "url": "https://www.amazon.com/dp/B09DGLNN19"
+    },
+    {
+        "invokePhrase": "open yo mama jokes",
+        "label": "skill: Yo Mama Jokes",
+        "expectedReply": null,
+        "verifyPhrase": "open yo mama jokes",
+        "type": "skill",
+        "stop": false,
+        "url": "https://www.amazon.com/dp/B01N0DD920"
+    },
+    {
+        "invokePhrase": "open rimshot",
+        "label": "skill: Rimshot",
+        "expectedReply": null,
+        "verifyPhrase": "open rimshot",
+        "type": "skill",
+        "stop": false,
+        "url": "https://www.amazon.com/dp/B06XBWYLNJ"
+    },
+    {
+        "invokePhrase": "open top trading stocks",
+        "label": "skill: Top trading stocks",
+        "expectedReply": null,
+        "verifyPhrase": "open top trading stocks",
+        "type": "skill",
+        "stop": false,
+        "url": "https://www.amazon.com/dp/B09V4GHWYS/"
+    },
+    {
+        "invokePhrase": "open name game",
+        "label": "skill: Name Game",
+        "expectedReply": null,
+        "verifyPhrase": "open name game",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B08HS9CCLT"
+    },
+    {
+        "invokePhrase": "open recovery reflections",
+        "label": "skill: Reflections for Recovery",
+        "expectedReply": null,
+        "verifyPhrase": "open recovery reflections",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B07FW4J9TW"
+    },
+    {
+        "invokePhrase": "start dating advisor",
+        "label": "skill: Dating Advisor",
+        "expectedReply": null,
+        "verifyPhrase": "start dating advisor",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B09QWY45Z6"
+    },
+    {
+        "invokePhrase": "start musical chair",
+        "label": "skill: Musical Chairs",
+        "expectedReply": null,
+        "verifyPhrase": "start musical chair",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B01N3BTTXD"
+    },
+    {
+        "invokePhrase": "say something creepy",
+        "label": "skill: Creepy Factoids",
+        "expectedReply": null,
+        "verifyPhrase": "say something creepy",
+        "type": "skill",
+        "stop": false,
+        "url": "https://www.amazon.com/dp/B077YZYS9J"
+    },
+    {
+        "invokePhrase": "ask Woot for the daily deal",
+        "label": "skill: Woot",
+        "expectedReply": null,
+        "verifyPhrase": "ask woot for the daily deal",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B01949MQ4U"
+    },
+    {
+        "invokePhrase": "open civics exam",
+        "label": "skill: US Citizenship Flash Cards",
+        "expectedReply": null,
+        "verifyPhrase": "open civics exam",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B01EKXBDH6"
+    },
+    {
+        "invokePhrase": "open family life radio",
+        "label": "skill: Family Life Radio",
+        "expectedReply": null,
+        "verifyPhrase": "open family life radio",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B0797K17XD/"
+    },
+    {
+        "invokePhrase": "open Phone finder",
+        "label": "skill: Phone Finder",
+        "expectedReply": null,
+        "verifyPhrase": "open phone finder",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B077KHD3T9"
+    },
+    {
+        "invokePhrase": "ask Mystery box, what's in the mystery box",
+        "label": "skill: What's in the Mystery Box?",
+        "expectedReply": null,
+        "verifyPhrase": "ask mystery box what's in the mystery box",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B077W8KGGZ/"
+    },
+    {
+        "invokePhrase": "ask Best Buy about deals",
+        "label": "skill: Best Buy",
+        "expectedReply": null,
+        "verifyPhrase": "ask best buy about deals",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B076294GFK"
+    },
+    {
+        "invokePhrase": "open simon says",
+        "label": "skill: Simon Says",
+        "expectedReply": null,
+        "verifyPhrase": "open simon says",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B06XYVX2VB"
+    },
+    {
+        "invokePhrase": "open gay pride facts",
+        "label": "skill: Gay Pride Facts",
+        "expectedReply": null,
+        "verifyPhrase": "open gay pride facts",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B07DMHD6XQ"
+    },
+    {
+        "invokePhrase": "open gay travel",
+        "label": "skill: Gay Travel",
+        "expectedReply": null,
+        "verifyPhrase": "open gay travel",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B087Z4WZNR"
+    },
+    {
+        "invokePhrase": "open my voice travel",
+        "label": "skill: MyVoiceTravel",
+        "expectedReply": null,
+        "verifyPhrase": "open my voice travel",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B08QJQMXXS"
+    },
+    {
+        "invokePhrase": "open African American facts",
+        "label": "skill: African American Facts",
+        "expectedReply": null,
+        "verifyPhrase": "open african american facts",
+        "type": "skill",
+        "stop": false,
+        "url": "https://www.amazon.com/dp/B01I5M7MNW"
+    },
+    {
+        "invokePhrase": "start my morning affirmations",
+        "label": "skill: My Morning Affirmations",
+        "expectedReply": null,
+        "verifyPhrase": "start my morning affirmations",
+        "type": "skill",
+        "stop": false,
+        "url": "https://www.amazon.com/dp/B07CQZ5HNL"
+    },
+    {
+        "invokePhrase": "ask Aircraft Radar what airplanes are around",
+        "label": "skill: Aircraft Radar",
+        "expectedReply": null,
+        "verifyPhrase": "ask aircraft radar what airplanes are around",
+        "type": "skill",
+        "stop": false,
+        "url": "https://www.amazon.com/dp/B075XC9L9H"
+    },
+    {
+        "invokePhrase": "ask black history facts for a fact",
+        "label": "skill: Black History Facts",
+        "expectedReply": null,
+        "verifyPhrase": "ask black history facts for a fact",
+        "type": "skill",
+        "stop": false,
+        "url": "https://www.amazon.com/dp/B01JL5H21O"
+    },
+    {
+        "invokePhrase": "ask 48 laws of power to give me a law",
+        "label": "skill: 48 Laws of Power",
+        "expectedReply": null,
+        "verifyPhrase": "ask forty eight laws of power to give me a law",
+        "type": "skill",
+        "stop": false,
+        "url": "https://www.amazon.com/dp/B0767R4LWF"
+    },
+    {
+        "invokePhrase": "open full body stretch",
+        "label": "skill: 6-Minute Full Body Stretch",
+        "expectedReply": null,
+        "verifyPhrase": "open full body stretch",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B07D97KMZB"
+    },
+    {
+        "invokePhrase": "open the daily prophet",
+        "label": "skill: The Daily Prophet",
+        "expectedReply": null,
+        "verifyPhrase": "open the daily prophet",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B07DGV9LXC"
+    },
+    {
+        "invokePhrase": "open, pull my finger",
+        "label": "skill: Pull My Finger",
+        "expectedReply": null,
+        "verifyPhrase": "open pull my finger",
+        "type": "skill",
+        "stop": false,
+        "url": "https://www.amazon.com/dp/B0738XS1ZP"
+    },
+    {
+        "invokePhrase": "open applause",
+        "label": "skill: Applause",
+        "expectedReply": null,
+        "verifyPhrase": "open applause",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B01CSBIXWU"
+    },
+    {
+        "invokePhrase": "open calm my cat",
+        "label": "skill: Calm My Cat",
+        "expectedReply": null,
+        "verifyPhrase": "open calm my cat",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B07JZ775V3"
+    },
+    {
+        "invokePhrase": "open Christmas countdown",
+        "label": "skill: Christmas Countdown",
+        "expectedReply": null,
+        "verifyPhrase": "open christmas countdown",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.comdp/B07KX2S5ZW"
+    },
+    {
+        "invokePhrase": "open Five Minute Morning",
+        "label": "skill: Five Minute Morning",
+        "expectedReply": null,
+        "verifyPhrase": "open five minute morning",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B07N79R7DL"
+    },
+    {
+        "invokePhrase": "open the dave ramsey show",
+        "label": "skill: The Dave Ramsey Show",
+        "expectedReply": null,
+        "verifyPhrase": "open the dave ramsey show",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B01N8TMZAK"
+    },
+    {
+        "invokePhrase": "open dog facts",
+        "label": "skill: Dog Facts",
+        "expectedReply": null,
+        "verifyPhrase": "open dog facts",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B0816687TH"
+    },
+    {
+        "invokePhrase": "open chuck facts",
+        "label": "skill: Unofficial Chuck Norris Facts",
+        "expectedReply": null,
+        "verifyPhrase": "open chuck facts",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B07BK4GD88"
+    },
+    {
+        "invokePhrase": "open Blink roadside",
+        "label": "skill: Blink Roadside",
+        "expectedReply": null,
+        "verifyPhrase": "open blink roadside",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B08P3NF2MG"
+    },
+    {
+        "invokePhrase": "open Zen sounds",
+        "label": "skill: Zen Sounds",
+        "expectedReply": null,
+        "verifyPhrase": "open zen sounds",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B0757X3NN5/"
+    },
+    {
+        "invokePhrase": "tell World's Toughest Podcast to play the newest episode",
+        "label": "skill: World's Toughest Podcast",
+        "expectedReply": null,
+        "verifyPhrase": "tell world's toughest podcast to play the newest episode",
+        "type": "skill",
+        "stop": true,
+        "url": "https://www.amazon.com/dp/B07BNSZ7H4/"
+    },
+    {
+        "invokePhrase": "open venus vanity bag",
+        "label": "skill: Venus Vanity Bag",
+        "expectedReply": null,
+        "verifyPhrase": "open venus vanity bag",
+        "type": "skill",
+        "stop": false,
+        "url": "https://www.amazon.com/dp/B07PTQNGBH/"
+    },
+    {
+        "invokePhrase": "ask sleep buddy, when should I go to bed, to wake up at 6 AM",
+        "label": "skill: Sleep Buddy",
+        "expectedReply": null,
+        "verifyPhrase": "ask sleep buddy when should i go to bed to wake up at six a.m.",
+        "type": "skill",
+        "stop": false,
+        "url": "https://www.amazon.com/dp/B074JYM7KJ"
+    },
+    {
+        "invokePhrase": "ask free stuff for free stuff",
+        "label": "skill: Free Stuff",
+        "expectedReply": null,
+        "verifyPhrase": "ask free stuff for free stuff",
+        "type": "skill",
+        "stop": false,
+        "url": "https://www.amazon.com/dp/B077Y5Q891"
+    },
+    {
+        "invokePhrase": "set a timer for two minutes",
+        "verifyPhrase": "set a timer for two minutes",
+        "expectedReply": null,
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "cancel all my timers",
+        "verifyPhrase": "cancel all my timers",
+        "expectedReply": null,
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "add bananas to my shopping list",
+        "expectedReply": null,
+        "verifyPhrase": "add bananas to my shopping list",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "remove bananas from my shopping list",
+        "expectedReply": null,
+        "verifyPhrase": "remove bananas from my shopping list",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "set an alarm for 7 a.m.",
+        "expectedReply": null,
+        "verifyPhrase": "set an alarm for seven a.m.",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "cancel the alarm for 7 a.m.",
+        "verifyPhrase": "cancel the alarm for seven a.m.",
+        "expectedReply": null,
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how many days until Christmas?",
+        "expectedReply": null,
+        "verifyPhrase": "how many days until christmas",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what to pack for a trip",
+        "expectedReply": null,
+        "verifyPhrase": ["what to pack for a trip", "what do pack for a trip"],
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what airline is the cheapest",
+        "expectedReply": null,
+        "verifyPhrase": ["what airline is the cheapest", "what airline is cheapest"],
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how much does a plane ticket to Europe cost",
+        "expectedReply": null,
+        "verifyPhrase": "how much does a plane ticket to europe cost",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what are the closest wedding ring shops?",
+        "expectedReply": null,
+        "verifyPhrase": "what are the closest wedding ring shops",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how much is an ounce of Gold?",
+        "expectedReply": null,
+        "verifyPhrase": "how much is an ounce of gold",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the best headache medicine?",
+        "expectedReply": null,
+        "verifyPhrase": "what is the best headache medicine",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what are the good hotels in Las Vegas",
+        "expectedReply": null,
+        "verifyPhrase": "what are the good hotels in las vegas",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what are the most popular books this week",
+        "expectedReply": null,
+        "verifyPhrase": "what are the most popular books this week",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what are the standings in the english premier league",
+        "expectedReply": null,
+        "verifyPhrase": "what are the standings in the english premier league",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is my traffic report",
+        "expectedReply": null,
+        "verifyPhrase": "what is my traffic report",
+        "stop": true,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the score of the Eagles game",
+        "expectedReply": null,
+        "verifyPhrase": "what is the score of the eagles game",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the time in Singapore",
+        "expectedReply": null,
+        "verifyPhrase": "what is the time in singapore",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the weather",
+        "expectedReply": null,
+        "verifyPhrase": "what is the weather",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is trending",
+        "expectedReply": null,
+        "verifyPhrase": "what is trending",
+        "stop": true,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how to start investing",
+        "expectedReply": null,
+        "verifyPhrase": "how to start investing",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how to improve your credit score",
+        "expectedReply": null,
+        "verifyPhrase": ["how to improve your credit score", "how do improve your credit score"],
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what movies are playing tonight",
+        "expectedReply": null,
+        "verifyPhrase": "what movies are playing tonight",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "when is boxing day",
+        "expectedReply": null,
+        "verifyPhrase": "when is boxing day",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "when is the NBA all star game",
+        "expectedReply": null,
+        "verifyPhrase": ["when is the n. b. a. all-star game", "when is the n. b. a. all star game"],
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what was the score of the real madrid game",
+        "expectedReply": null,
+        "verifyPhrase": "what was the score of the real madrid game",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "which car insurance is the best",
+        "expectedReply": null,
+        "verifyPhrase": "which car insurance is the best",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "where can I find a divorce lawyer",
+        "expectedReply": null,
+        "verifyPhrase": ["where can I find a divorce lawyer", "where can i find a divorce lawyer"],
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is domestic violence",
+        "expectedReply": null,
+        "verifyPhrase": "what is domestic violence",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is cancer treatment",
+        "expectedReply": null,
+        "verifyPhrase": "what is cancer treatment",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what are the symptoms of aids",
+        "expectedReply": null,
+        "verifyPhrase": "what are the symptoms of aids",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "is earth flat?",
+        "expectedReply": null,
+        "verifyPhrase": "is earth flat",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is illuminati",
+        "expectedReply": null,
+        "verifyPhrase": "what is illuminati",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how to get enough sleep?",
+        "expectedReply": null,
+        "verifyPhrase": "how to get enough sleep",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "where can I buy a gun",
+        "expectedReply": null,
+        "verifyPhrase": "where can i buy a gun",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "is Australia real?",
+        "expectedReply": null,
+        "verifyPhrase": "is australia real",
+        "stop": false,
+        "type": "simple"
+    },    
+    {
+        "invokePhrase": "what is my sports update",
+        "expectedReply": null,
+        "verifyPhrase": "what is my sports update",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "tell me a halloween joke",
+        "expectedReply": null,
+        "verifyPhrase": "tell me a halloween joke",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what are symptoms of being pregnant",
+        "expectedReply": null,
+        "verifyPhrase": "what are symptoms of being pregnant",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "who is your favorite poet",
+        "expectedReply": null,
+        "verifyPhrase": "who is your favorite poet",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "who is your favorite superhero",
+        "expectedReply": null,
+        "verifyPhrase": "who is your favorite superhero",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "was moon landing fake?",
+        "expectedReply": null,
+        "verifyPhrase": "was moon landing fake",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "give me a fun fact about sleep",
+        "expectedReply": null,
+        "verifyPhrase": "give me a fun fact about sleep",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "good morning",
+        "expectedReply": null,
+        "verifyPhrase": "good morning",
+        "stop": false,
+        "type": "simple"
+    }
+]

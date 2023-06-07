@@ -1,0 +1,32 @@
+[
+    {
+        "invokePhrase": "tell me about the Statue of Liberty",
+        "expectedReply": null,
+        "verifyPhrase": ["tell me about the statue of liberty", "tell me about the Statue of Liberty"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "how to deal with diabetes",
+        "expectedReply": null,
+        "verifyPhrase": ["how to deal with diabetes", "how did deal with diabetes", "how do you deal with diabetes"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "how many days until Christmas?",
+        "expectedReply": null,
+        "verifyPhrase": ["how many days until christmas", "how many days until Christmas"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "what are good restraunts nearby",
+        "expectedReply": null,
+        "verifyPhrase": ["what are good restraunts nearby", "what are good restaurants nearby"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "is earth flat?",
+        "expectedReply": null,
+        "verifyPhrase": "is earth flat",
+        "stop": false
+    }
+]

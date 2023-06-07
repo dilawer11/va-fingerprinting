@@ -1,0 +1,107 @@
+[
+    {
+        "invokePhrase": "play music",
+        "verifyPhrase": "play music",
+        "expectedReply": null,
+        "tags": ["music", "streaming"],
+        "stop": true
+    },
+    {
+        "invokePhrase": "play music from Spotify",
+        "verifyPhrase": "play music from spotify",
+        "expectedReply": null,
+        "tags": ["music", "streaming", "skill"],
+        "stop": true
+    },
+    {
+        "invokePhrase": "play iHeartRadio",
+        "verifyPhrase": "play iheartradio",
+        "expectedReply": null,
+        "tags": ["radio", "streaming"],
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from Bloomberg",
+        "verifyPhrase": "play news from bloomberg",
+        "expectedReply": "From Bloomberg",
+        "tags": ["news", "streaming"],
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from ABC",
+        "verifyPhrase": "play news from a. b. c.",
+        "expectedReply": "From ABC News...",
+        "tags": ["news", "streaming"],
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from CBS news",
+        "verifyPhrase": "play news from c. b. s. news",
+        "expectedReply": null,
+        "tags": ["news", "streaming"],
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from CNBC",
+        "verifyPhrase": "play news from c. n. b. c.",
+        "expectedReply": "From CNBC",
+        "tags": ["news", "streaming"],
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from CNN",
+        "verifyPhrase": "play news from c. n. n.",
+        "expectedReply": "From CNN",
+        "tags": ["news", "streaming"],
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from The Economist",
+        "verifyPhrase": "play news from the economist",
+        "expectedReply": "From Economist Radio",
+        "tags": ["news", "streaming"],
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from ESPN",
+        "verifyPhrase": "play news from e. s. p. n.",
+        "expectedReply": "From ESPN",
+        "tags": ["news", "streaming"],
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from Fox News",
+        "verifyPhrase": "play news from fox news",
+        "expectedReply": "In Fox News",
+        "tags": ["news", "streaming"],
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from Newsy",
+        "verifyPhrase": "play news from newsy",
+        "expectedReply": "from Newsy, the latest headlines",
+        "tags": ["news", "streaming"],
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from NPR",
+        "verifyPhrase": "play news from n. p. r.",
+        "expectedReply": null,
+        "tags": ["news", "streaming"],
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from USA today",
+        "verifyPhrase": "play news from u. s. a. today",
+        "expectedReply": "From USA TODAY",
+        "tags": ["news", "streaming"],
+        "stop": true
+    },
+    {
+        "invokePhrase": "play news from The Wall Street Journal",
+        "verifyPhrase": "play news from the wall street journal",
+        "expectedReply": "From the Wall Street Journal",
+        "tags": ["news", "streaming"],
+        "stop": true
+    }
+]

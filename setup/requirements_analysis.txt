@@ -1,0 +1,10 @@
+xgboost
+pandas
+scikit-learn
+matplotlib
+tqdm
+seaborn
+datetime
+python-dotenv
+jupyterlab
+plotly

@@ -1,0 +1,709 @@
+[
+    {
+        "invokePhrase": "set a timer for two minutes",
+        "verifyPhrase": "set a timer for two minutes",
+        "expectedReply": null,
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "cancel all my timers",
+        "verifyPhrase": "cancel all my timers",
+        "expectedReply": null,
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "add bananas to my shopping list",
+        "expectedReply": null,
+        "verifyPhrase": "add bananas to my shopping list",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "remove bananas from my shopping list",
+        "expectedReply": null,
+        "verifyPhrase": "remove bananas from my shopping list",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "add milk to my shopping list",
+        "expectedReply": null,
+        "verifyPhrase": "add milk to my shopping list",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "remove milk from my shopping list",
+        "expectedReply": null,
+        "verifyPhrase": "remove milk from my shopping list",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is on my to-do list",
+        "expectedReply": null,
+        "verifyPhrase": "what is on my to do list",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "set an alarm for 7 a.m.",
+        "expectedReply": null,
+        "verifyPhrase": "set an alarm for seven a.m.",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "cancel the alarm for 7 a.m.",
+        "verifyPhrase": "cancel the alarm for seven a.m.",
+        "expectedReply": null,
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "find me a gynecologist",
+        "expectedReply": null,
+        "verifyPhrase": "find me a gynecologist",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "where is the closest abortion clinic",
+        "expectedReply": null,
+        "verifyPhrase": "where is the closest abortion clinic",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the domestic violence helpline",
+        "expectedReply": null,
+        "verifyPhrase": "what is the domestic violence helpline",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "where are the closest therapist?",
+        "expectedReply": null,
+        "verifyPhrase": "where are the closest therapist?",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how to deal with diabetes",
+        "expectedReply": null,
+        "verifyPhrase": "how to deal with diabetes",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how many days until Christmas?",
+        "expectedReply": null,
+        "verifyPhrase": "how many days until christmas",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how many days until Thanksgiving?",
+        "expectedReply": null,
+        "verifyPhrase": "how many days until thanksgiving",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "where is the closest liquor store",
+        "expectedReply": null,
+        "verifyPhrase": "where is the closest liquor store",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what to pack for a trip",
+        "expectedReply": null,
+        "verifyPhrase": "what to pack for a trip",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how to take care of plants while you are away",
+        "expectedReply": null,
+        "verifyPhrase": "how to take care of plants while you are away",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how much does a plane ticket to Europe cost",
+        "expectedReply": null,
+        "verifyPhrase": "how much does a plane ticket to europe cost",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "where can I buy a wedding ring?",
+        "expectedReply": null,
+        "verifyPhrase": "where can i buy a wedding ring",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how much is an ounce of Gold?",
+        "expectedReply": null,
+        "verifyPhrase": "how much is an ounce of gold",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how to deal with anxiety?",
+        "expectedReply": null,
+        "verifyPhrase": "how to deal with anxiety",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how to feel less depressed?",
+        "expectedReply": null,
+        "verifyPhrase": "how to feel less depressed",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the best headache medicine?",
+        "expectedReply": null,
+        "verifyPhrase": "what is the best headache medicine",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "where is the closest sperm bank?",
+        "expectedReply": null,
+        "verifyPhrase": "where is the closest sperm bank",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what are the good hotels in Las Vegas",
+        "expectedReply": null,
+        "verifyPhrase": "what are the good hotels in Las Vegas",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what are some flower shops nearby",
+        "expectedReply": null,
+        "verifyPhrase": "what are some flower shops nearby",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what are the most popular books this week",
+        "expectedReply": null,
+        "verifyPhrase": "what are the most popular books this week",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what are the standings in the english premier league",
+        "expectedReply": null,
+        "verifyPhrase": "what are the standings in the english premier league",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what happened in the midterm elections",
+        "expectedReply": null,
+        "verifyPhrase": "what happened in the midterm elections",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is my traffic report",
+        "expectedReply": null,
+        "verifyPhrase": "what is my traffic report",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the score of the Eagles game",
+        "expectedReply": null,
+        "verifyPhrase": "what is the score of the eagles game",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the score of Red Sox game",
+        "expectedReply": null,
+        "verifyPhrase": "what is the score of redsox game",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the time in Singapore",
+        "expectedReply": null,
+        "verifyPhrase": "what is the time in singapore",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the weather for Sunday",
+        "expectedReply": null,
+        "verifyPhrase": "what is the weather for sunday",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the weather",
+        "expectedReply": null,
+        "verifyPhrase": "what is the weather",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is trending",
+        "expectedReply": null,
+        "verifyPhrase": "what is trending",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what time is sunset today",
+        "expectedReply": null,
+        "verifyPhrase": "what time is sunset today",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how to improve your credit score",
+        "expectedReply": null,
+        "verifyPhrase": "how to improve your credit score",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the best internet service provider in my area",
+        "expectedReply": null,
+        "verifyPhrase": "what is the best internet service provider in my area",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "where is the closest car dealership to me?",
+        "expectedReply": null,
+        "verifyPhrase": "where is the closest car dealership to me",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what are good date spots around",
+        "expectedReply": null,
+        "verifyPhrase": "what are good date spots around",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what are good restraunts nearby",
+        "expectedReply": null,
+        "verifyPhrase": "what are good restraunts nearby",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what movies are playing tonight",
+        "expectedReply": null,
+        "verifyPhrase": "what movies are playing tonight",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "when is the next F1 race",
+        "expectedReply": null,
+        "verifyPhrase": "when is the next f one race",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "when is boxing day",
+        "expectedReply": null,
+        "verifyPhrase": "when is boxing day",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "when is hanukkah",
+        "expectedReply": null,
+        "verifyPhrase": "when is hanukkah",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "when is the NBA all star game",
+        "expectedReply": null,
+        "verifyPhrase": "when is the n. b. a. all-star game",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "who is playing monday night football",
+        "expectedReply": null,
+        "verifyPhrase": "who is playing monday night football",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "who is second in the NBA western conference",
+        "expectedReply": null,
+        "verifyPhrase": "who is second in the n. b. a. western conference",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "who is winning the world series",
+        "expectedReply": null,
+        "verifyPhrase": "who is winning the world series",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what was the score of the real madrid game",
+        "expectedReply": null,
+        "verifyPhrase": "what was the score of the real madrid game",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "when is the next real madrid game",
+        "expectedReply": null,
+        "verifyPhrase": "when is the next real madrid game",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the price of bitcoin",
+        "expectedReply": null,
+        "verifyPhrase": "what is the price of bitcoin",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how tall is the Empire State Building?",
+        "expectedReply": null,
+        "verifyPhrase": "how tall is the empire state building",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "is tomato a fruit or vegetable?",
+        "expectedReply": null,
+        "verifyPhrase": "is tomato a fruit or vegetable",
+        "stop": false,
+        "type": "simple"
+    },
+
+    {
+        "invokePhrase": "pick a number",
+        "expectedReply": null,
+        "verifyPhrase": "pick a number",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "surprise me",
+        "expectedReply": null,
+        "verifyPhrase": "surprise me",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "talk like a pirate",
+        "expectedReply": null,
+        "verifyPhrase": "talk like a pirate",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "tell me a barbecue joke",
+        "expectedReply": null,
+        "verifyPhrase": "tell me a barbecue joke",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "tell me a coffee joke",
+        "expectedReply": null,
+        "verifyPhrase": "tell me a coffee joke",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "tell me a fun fact",
+        "expectedReply": null,
+        "verifyPhrase": "tell me a fun fact",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "tell me a halloween joke",
+        "expectedReply": null,
+        "verifyPhrase": "tell me a halloween joke",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "tell me a joke",
+        "expectedReply": null,
+        "verifyPhrase": "tell me a joke",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "tell me a palindrome",
+        "expectedReply": null,
+        "verifyPhrase": "tell me a palindrome",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "tell me a star wars joke",
+        "expectedReply": null,
+        "verifyPhrase": "tell me a star wars joke",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "tell me some good news",
+        "expectedReply": null,
+        "verifyPhrase": "tell me some good news",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "tell me something weird",
+        "expectedReply": null,
+        "verifyPhrase": "tell me something weird",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "translate good morning to spanish",
+        "expectedReply": null,
+        "verifyPhrase": "translate good morning to spanish",
+        "stop": false,
+        "type": "simple"
+    },
+
+    {
+        "invokePhrase": "what are you thankful for",
+        "expectedReply": null,
+        "verifyPhrase": "what are you thankful for",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what can you do",
+        "expectedReply": null,
+        "verifyPhrase": "what can you do",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is brief mode",
+        "expectedReply": null,
+        "verifyPhrase": "what is brief mode",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is gluten",
+        "expectedReply": null,
+        "verifyPhrase": "what is gluten",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is homecoming about",
+        "expectedReply": null,
+        "verifyPhrase": "what is homecoming about",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is my sports update",
+        "expectedReply": null,
+        "verifyPhrase": "what is my sports update",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is on your mind",
+        "expectedReply": null,
+        "verifyPhrase": "what is on your mind",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is Roblox",
+        "expectedReply": null,
+        "verifyPhrase": "what is roblox",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the AFC north standings",
+        "expectedReply": null,
+        "verifyPhrase": "what is the a. f. c. north standings",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the best comedy movie",
+        "expectedReply": null,
+        "verifyPhrase": "what is the best comedy movie",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the capital of spain",
+        "expectedReply": null,
+        "verifyPhrase": "what is the capital of spain",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the date tomorrow",
+        "expectedReply": null,
+        "verifyPhrase": "what is the date tomorrow",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the fourth book in the narnia series",
+        "expectedReply": null,
+        "verifyPhrase": "what is the fourth book in the narnia series",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is history of labor day",
+        "expectedReply": null,
+        "verifyPhrase": "what is history of labor day",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the longest word",
+        "expectedReply": null,
+        "verifyPhrase": "what is the longest word",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is the number one song this week",
+        "expectedReply": null,
+        "verifyPhrase": "what is the number one song this week",
+        "stop": false,
+        "type": "simple"
+    },
+
+    {
+        "invokePhrase": "what is the scariest movie of all time",
+        "expectedReply": null,
+        "verifyPhrase": "what is the scariest movie of all time",
+        "stop": false,
+        "type": "simple"
+    },
+
+    {
+        "invokePhrase": "what is your favorite hobby",
+        "expectedReply": null,
+        "verifyPhrase": "what is your favorite hobby",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "what is your favorite sport",
+        "expectedReply": null,
+        "verifyPhrase": "what is your favorite sport",
+        "stop": false,
+        "type": "simple"
+    },
+
+    {
+        "invokePhrase": "when does game of thrones return",
+        "expectedReply": null,
+        "verifyPhrase": "when does game of thrones return",
+        "stop": false,
+        "type": "simple"
+    },
+
+    {
+        "invokePhrase": "who is your favorite author",
+        "expectedReply": null,
+        "verifyPhrase": "who is your favorite author",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "who is your favorite poet",
+        "expectedReply": null,
+        "verifyPhrase": "who is your favorite poet",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "who is your favorite superhero",
+        "expectedReply": null,
+        "verifyPhrase": "who is your favorite superhero",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "who scored for the Golden Knights",
+        "expectedReply": null,
+        "verifyPhrase": "who scored for the golden knights",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "who scored for Boston Red Sox",
+        "expectedReply": null,
+        "verifyPhrase": "who scored for Boston Red Sox",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "will it rain tomorrow",
+        "expectedReply": null,
+        "verifyPhrase": "will it rain tomorrow",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "roll a die",
+        "expectedReply": null,
+        "verifyPhrase": "roll a die",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "how many people are on earth",
+        "expectedReply": null,
+        "verifyPhrase": "how many people are on earth",
+        "stop": false,
+        "type": "simple"
+    },
+    
+    {
+        "invokePhrase": "give me a fun fact about sleep",
+        "expectedReply": null,
+        "verifyPhrase": "give me a fun fact about sleep",
+        "stop": false,
+        "type": "simple"
+    },
+    {
+        "invokePhrase": "good morning",
+        "expectedReply": null,
+        "verifyPhrase": "good morning",
+        "stop": false,
+        "type": "simple"
+    }
+]

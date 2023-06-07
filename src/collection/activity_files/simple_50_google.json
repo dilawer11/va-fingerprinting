@@ -1,0 +1,302 @@
+[
+    {
+        "invokePhrase": "tell me about the Statue of Liberty",
+        "expectedReply": null,
+        "verifyPhrase": ["tell me about the statue of liberty", "tell me about the Statue of Liberty"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "find me a gynecologist",
+        "expectedReply": null,
+        "verifyPhrase": ["find me a gynecologist", "find me a Gynecologist"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "where is the closest abortion clinic",
+        "expectedReply": null,
+        "verifyPhrase": ["where is the closest abortion clinic", "where is the closest Abortion clinic"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "what is the domestic violence helpline",
+        "expectedReply": null,
+        "verifyPhrase": ["what is the domestic violence helpline"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "where are the closest therapist?",
+        "expectedReply": null,
+        "verifyPhrase": "where are the closest therapist",
+        "stop": false
+    },
+    {
+        "invokePhrase": "how to deal with diabetes",
+        "expectedReply": null,
+        "verifyPhrase": ["how to deal with diabetes", "how did deal with diabetes", "how do you deal with diabetes"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "how many days until Christmas?",
+        "expectedReply": null,
+        "verifyPhrase": ["how many days until christmas", "how many days until Christmas"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "how many days until Thanksgiving?",
+        "expectedReply": null,
+        "verifyPhrase": "how many days until thanksgiving",
+        "stop": false
+    },
+    {
+        "invokePhrase": "where is the closest liquor store",
+        "expectedReply": null,
+        "verifyPhrase": "where is the closest liquor store",
+        "stop": false
+    },
+    {
+        "invokePhrase": "what to pack for a trip",
+        "expectedReply": null,
+        "verifyPhrase": ["what to pack for a trip", "what do pack for a trip"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "how to take care of plants while you are away",
+        "expectedReply": null,
+        "verifyPhrase": ["how to take care of plants while you are away", "how to take care of plants while you're away"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "how much does a plane ticket to Europe cost",
+        "expectedReply": null,
+        "verifyPhrase": "how much does a plane ticket to europe cost",
+        "stop": false
+    },
+    {
+        "invokePhrase": "what are the closest wedding ring shops?",
+        "expectedReply": null,
+        "verifyPhrase": "what are the closest wedding ring shops",
+        "stop": false
+    },
+    {
+        "invokePhrase": "how much is an ounce of Gold?",
+        "expectedReply": null,
+        "verifyPhrase": ["how much is an ounce of gold", "how much is an ounce of gold"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "how to deal with anxiety?",
+        "expectedReply": null,
+        "verifyPhrase": ["how to deal with anxiety", "how did you deal with anxiety"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "how to feel less depressed?",
+        "expectedReply": null,
+        "verifyPhrase": ["how to feel less depressed", "how do you feel less depressed"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "what is the best headache medicine?",
+        "expectedReply": null,
+        "verifyPhrase": "what is the best headache medicine",
+        "stop": false
+    },
+    {
+        "invokePhrase": "where is the closest sperm bank?",
+        "expectedReply": null,
+        "verifyPhrase": "where is the closest sperm bank",
+        "stop": false
+    },
+    {
+        "invokePhrase": "what are the good hotels in Las Vegas",
+        "expectedReply": null,
+        "verifyPhrase": ["what are the good hotels in las vegas", "what are the good hotels in Las Vegas"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "what are some flower shops nearby",
+        "expectedReply": null,
+        "verifyPhrase": "what are some flower shops nearby",
+        "stop": false
+    },
+    {
+        "invokePhrase": "how to start investing",
+        "expectedReply": null,
+        "verifyPhrase": "how to start investing",
+        "stop": false
+    },
+    {
+        "invokePhrase": "how to improve your credit score",
+        "expectedReply": null,
+        "verifyPhrase": ["how to improve your credit score", "how do improve your credit score"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "what is the best internet service provider in my area",
+        "expectedReply": null,
+        "verifyPhrase": "what is the best internet service provider in my area",
+        "stop": false
+    },
+    {
+        "invokePhrase": "where is the closest car dealership to me?",
+        "expectedReply": null,
+        "verifyPhrase": "where is the closest car dealership to me",
+        "stop": false
+    },
+    {
+        "invokePhrase": "what are good date spots around",
+        "expectedReply": null,
+        "verifyPhrase": "what are good date spots around",
+        "stop": false
+    },
+    {
+        "invokePhrase": "what are good restraunts nearby",
+        "expectedReply": null,
+        "verifyPhrase": ["what are good restraunts nearby", "what are good restaurants nearby"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "what movies are playing tonight",
+        "expectedReply": null,
+        "verifyPhrase": "what movies are playing tonight",
+        "stop": false
+    },
+    {
+        "invokePhrase": "when is the next F1 race",
+        "expectedReply": null,
+        "verifyPhrase": ["when is the next f one race", "when is the next f. one race", "when is the next F1 race"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "when is boxing day",
+        "expectedReply": null,
+        "verifyPhrase": "when is boxing day",
+        "stop": false
+    },
+    {
+        "invokePhrase": "when is hanukkah",
+        "expectedReply": null,
+        "verifyPhrase": "when is hanukkah",
+        "stop": false
+    },
+    {
+        "invokePhrase": "when is the NBA all star game",
+        "expectedReply": null,
+        "verifyPhrase": ["when is the n. b. a. all-star game", "when is the n. b. a. all star game", "when is the NBA All-Star Game"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "what is the price of bitcoin",
+        "expectedReply": null,
+        "verifyPhrase": "what is the price of bitcoin",
+        "stop": false
+    },
+    {
+        "invokePhrase": "which car insurance is the best",
+        "expectedReply": null,
+        "verifyPhrase": "which car insurance is the best",
+        "stop": false
+    },
+    {
+        "invokePhrase": "where is the closest strip club",
+        "expectedReply": null,
+        "verifyPhrase": "where is the closest strip club",
+        "stop": false
+    },
+    {
+        "invokePhrase": "what is the best porn site",
+        "expectedReply": null,
+        "verifyPhrase": "what is the best porn site",
+        "stop": false
+    },
+    {
+        "invokePhrase": "what is cancer treatment",
+        "expectedReply": null,
+        "verifyPhrase": "what is cancer treatment",
+        "stop": false
+    },
+    {
+        "invokePhrase": "what are the symptoms of aids",
+        "expectedReply": null,
+        "verifyPhrase": "what are the symptoms of aids",
+        "stop": false
+    },
+    {
+        "invokePhrase": "is corona virus real?",
+        "expectedReply": null,
+        "verifyPhrase": ["is corona virus real", "is coronavirus real"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "is earth flat?",
+        "expectedReply": null,
+        "verifyPhrase": "is earth flat",
+        "stop": false
+    },
+    {
+        "invokePhrase": "what is illuminati",
+        "expectedReply": null,
+        "verifyPhrase": "what is illuminati",
+        "stop": false
+    },
+    {
+        "invokePhrase": "how much does a trip to Israel cost",
+        "expectedReply": null,
+        "verifyPhrase": "how much does a trip to israel cost",
+        "stop": false
+    },
+    {
+        "invokePhrase": "where is the closest church",
+        "expectedReply": null,
+        "verifyPhrase": "where is the closest church",
+        "stop": false
+    },
+    {
+        "invokePhrase": "where is the closest mosque",
+        "expectedReply": null,
+        "verifyPhrase": "where is the closest mosque",
+        "stop": false
+    },
+    {
+        "invokePhrase": "where is the closest synagouge",
+        "expectedReply": null,
+        "verifyPhrase": ["where is the closest synagouge", "where is the closest synagogue"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "where is the closest hindu temple",
+        "expectedReply": null,
+        "verifyPhrase": "where is the closest hindu temple",
+        "stop": false
+    },
+    {
+        "invokePhrase": "what are closest Halal restraunts",
+        "expectedReply": null,
+        "verifyPhrase": ["what are closest halal restraunts", "what are closest halal restaurants"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "where can I get Kosher food",
+        "expectedReply": null,
+        "verifyPhrase": "where can i get kosher food",
+        "stop": false
+    },
+    {
+        "invokePhrase": "where can I buy weed?",
+        "expectedReply": null,
+        "verifyPhrase": "where can i buy weed",
+        "stop": false
+    },
+    {
+        "invokePhrase": "how to get enough sleep?",
+        "expectedReply": null,
+        "verifyPhrase": ["how to get enough sleep", "how do you get enough sleep", "how do I get enough sleep"],
+        "stop": false
+    },
+    {
+        "invokePhrase": "where can I buy a gun",
+        "expectedReply": null,
+        "verifyPhrase": "where can i buy a gun",
+        "stop": false
+    }
+]

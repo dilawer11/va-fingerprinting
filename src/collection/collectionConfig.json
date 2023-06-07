@@ -1,0 +1,18 @@
+{
+    "alexa_wake_word": "Alexa",
+    "google_wake_word": "Hey Google",
+    "siri_wake_word": "Hey Siri",
+    "va": "Siri",
+    "wait_between_iterations": 15,
+    "wait_before_retry": 15,
+    "wait_before_verify": 15,
+    "validate": false,
+    "capture_script_path": "capture.sh",
+    "collection_base_dir": "data/{dataset}",
+    "capture_dir": "captures",
+    "invoke_records_dir": "invoke_records",
+    "audio_files_dir": "audio_files",
+    "capture_duration": 60,
+    "target_ip": "{0.0.0.0}",
+    "activity_file": "activity_files/{activity_file}.json"
+}
