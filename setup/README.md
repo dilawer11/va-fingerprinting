@@ -38,7 +38,7 @@ $ docker load < path/to/vafingerprint_di.tar.gz
 Now we can start the docker container and load our code and data files. If your terminal window is currently in the base github repo directory you can run the following command to start container and mount the current directory otherwise `cd` to the directory or change the command accordingly
 
 ```sh
-$ docker start -it -v $('pwd'):/home/vauser/va-fingerprinting vafingerprint
+$ docker run -it -v $('pwd'):/va-fingerprinting vafingerprint
 ```
 
 Note: You will also need to populate the data directory with the datasets if you want to process them but you can do that at a later stage as well

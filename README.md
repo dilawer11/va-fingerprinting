@@ -9,7 +9,7 @@ This README file contains instructions to setup and use our system for a remote 
 
 Please consider citing our paper if you use any part of this repo in your project
 
-TODO: Add citation here
+{Citation will be added shortly}
 
 # Environment Setup
 
