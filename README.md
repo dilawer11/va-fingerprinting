@@ -32,7 +32,7 @@ Before running any commands ensure you have setup the [Environment](#environment
 
 The options for all scripts provided can be seen by passing the `--help` or `-h` keyword to the script e.g
 
-```console
+```sh
 $ python3 src/scripts/PCAP2CSV.py -h
 ```
 
@@ -41,7 +41,7 @@ $ python3 src/scripts/PCAP2CSV.py -h
 
 Run the following command with `path/to/va-fingerprinting` changed to the path you setup the code at
 
-```console
+```sh
 $ cd path/to/va-fingerprinting
 ```
 
@@ -49,7 +49,7 @@ $ cd path/to/va-fingerprinting
 
 The following commands uses the tshark and python script to convert the network capture from PCAP to CSV dropping extra columns and performing preliminary processing of data. This step also creates and DNS mapping from passive DNS. Replace the `data/{dataset}` with the correct dataset path (e.g `data/simple_50_google`)
 
-```console
+```sh
 $ python3 src/scripts/PCAP2CSV.py -i data/{dataset}
 ```
 
@@ -92,15 +92,15 @@ Activity detection refers to detecting the voice command, skill or the streaming
 
 Since our captured data is continous and needs to be chunked based on the invoke records we use the following scripts to use the CSV files and create a per command/event CSV file to then extract features from.
 
-```console
-$ python3 scripts/ActivityDetection.py windows -i data/{dataset}
+```sh
+$ python3 src/scripts/ActivityDetection.py windows -i data/{dataset}
 ```
 
 ### 2. Extracting features from these windows
 After the CSV files are create we can use the following commands to extract features from them.
 
 ```sh
-$ python3 scripts/ActivityDetection.py features -i data/{dataset}
+$ python3 src/scripts/ActivityDetection.py features -i data/{dataset}
 ```
 
 ### 3. Training the ML Models
@@ -108,7 +108,7 @@ $ python3 scripts/ActivityDetection.py features -i data/{dataset}
 We train different models and also use the AutoGluon library which itself trains and optimizes multiple models. In our paper we only report the numbers from the AutoGluon models. Use the following commands to train the models
 
 ```sh
-$ python3 scripts/ActivityDetection.py train -i data/{dataset}
+$ python3 src/scripts/ActivityDetection.py train -i data/{dataset}
 ```
 
 The results will be displayed at the terminal after the script is done running.
@@ -118,7 +118,7 @@ The results will be displayed at the terminal after the script is done running.
 To evaluate performance on a different dataset than the one trained on use the following commands. Replace `{train_dataset}` with the dataset that you previously trained the models for and the `{test_dataset}` with the dataset that you want to evaluate one.
 
 ```sh
-$ python3 scripts/ActivityDetection.py infer -mi data/{train_dataset} -i data/{test_dataset}
+$ python3 src/scripts/ActivityDetection.py infer -mi data/{train_dataset} -i data/{test_dataset}
 ```
 
 # Post-processing (tables)
@@ -128,7 +128,7 @@ To compute the Activity Detection table and Invocation Detection table across th
 To compute the Invocation Detection table run the following commands (Note the path is now to base data directory instead to the dataset)
 
 ```sh
-$ python3 scripts/PostProcessing.py id-table -d data/
+$ python3 src/scripts/PostProcessing.py id-table -d data/
 ```
 
 This script will scan all the dataset directories and whichever has the results pre computed will be added to the table that will be provided. To save the tabel pass the `-o` flag with the path to save the table in.
@@ -136,5 +136,5 @@ This script will scan all the dataset directories and whichever has the results 
 Similarly to compute the Activity Detection table run the following command.
 
 ```sh
-$ python3 scripts/PostProcessing.py ad-table -d data/
+$ python3 src/scripts/PostProcessing.py ad-table -d data/
 ```
