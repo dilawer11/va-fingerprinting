@@ -2,7 +2,7 @@ import os
 import logging
 import pandas as pd
 
-from iotpackage.Utils import getPDPathFromIRPath, createParentDirectory, genIR
+from iotpackage.Utils import getPDPathFromIRPath, createParentDirectory, genIR, getVAFromIRPath
 from iotpackage.PreProcessing import PreProcessor
 from iotpackage.__vars import fixedFlowIds_Alexa, fixedFlowIds_Google, fixedFlowIds_Siri
 
@@ -161,16 +161,9 @@ class CSV2Windows:
         packets.groupby(self.flow_grouper).apply(addTrafficFromGroup)
         return packets.loc[idxs, :].sort_index()
 
-    def getVAFromIRPath(self, ir_base_path):
-        dir_contents = os.listdir(ir_base_path)
-        if len(dir_contents) != 1:
-            raise ValueError(
-                f"There should only be one folder in ir_base_path for the VA")
-        return dir_contents[0]
-
     def run(self, input_dir, ir_base_path, output_path):
         if self.va is None:
-            self.va = self.getVAFromIRPath(ir_base_path)
+            self.va = getVAFromIRPath(ir_base_path)
             self.setFixedFlows()
         print(f"VA='{self.va}'")
 

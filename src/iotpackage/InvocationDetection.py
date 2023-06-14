@@ -13,7 +13,7 @@ from sklearn.ensemble import AdaBoostClassifier
 from xgboost import XGBClassifier
 
 from iotpackage.PreProcessing import PreProcessor
-from iotpackage.Utils import loadInvokeRecords, loadCaptureFromPath, computeMetrics
+from iotpackage.Utils import loadInvokeRecords, loadCaptureFromPath, computeMetrics, getVAFromIRPath
 from iotpackage.__vars import InvocationDetectionConfig
 
 class WindowGeneration:
@@ -46,15 +46,6 @@ class WindowGeneration:
 
         self.output_dir = self.setupOutputDir()
         return
-
-    @staticmethod
-    def getVA(ir_dir):
-        if not os.path.exists(ir_dir): return None
-        lva = os.listdir(ir_dir)
-        if len(lva) != 1:
-            raise Exception(
-                f"Expected one subfolder in ir_dir='{ir_dir}'. Got {len(lva)}")
-        return lva[0]
 
     def loadDNSData(self, dns_mapping):
         if not os.path.exists(dns_mapping):
@@ -187,7 +178,7 @@ class WindowGeneration:
             'wstep': self.config.WSTEP,
             'mark_true_in': self.config.MARK_TRUE_IN,
             'idle': self.idle_,
-            'va': self.getVA(self.ir_dir_),
+            'va': getVAFromIRPath(self.ir_dir_),
             'win_time': time(),
         }
         self.config.storeMetadata(self.setup_dir_path, metadata)

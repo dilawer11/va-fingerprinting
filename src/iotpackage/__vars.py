@@ -1,6 +1,12 @@
 import os
 import json
 
+voiceAssistants = [
+    "Alexa",
+    "Google",
+    "Siri"
+]
+
 simpleFeatureGroups = {
     'Total Packets': {
         'suffix': '_totalpkts',

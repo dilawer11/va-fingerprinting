@@ -7,7 +7,7 @@ import pandas as pd
 import seaborn as sns
 from sklearn import metrics
 from sklearn.metrics import accuracy_score, confusion_matrix, precision_recall_fscore_support
-from iotpackage.__vars import simpleFeatureGroups, dictFeatureGroups, ActivityDetectionConfig
+from iotpackage.__vars import simpleFeatureGroups, dictFeatureGroups, ActivityDetectionConfig, voiceAssistants
 import matplotlib.pyplot as plt
 import pathlib
 import pickle
@@ -151,6 +151,16 @@ def loadCaptureFromPath(dir_path, sort=True):
         file_paths.sort(key=extractTimeFromCaptureName)
     return file_paths
 
+def getVAFromIRPath(ir_path):
+    if not os.path.exists(ir_path): return None
+    dir_entries = os.listdir(ir_path)
+    va = None
+    for dir_entry in dir_entries:
+        if dir_entry in voiceAssistants and va is None:
+            va = dir_entry
+        elif dir_entry in voiceAssistants:
+            raise Exception(f"Expected one VoiceAssistant in ir_path='{ir_path}'. Got multiple")
+    return va
 def getIRPathFromPDPath(pd_path, pd_base_path, ir_base_path):
     relpath = os.path.relpath(pd_path, pd_base_path)
     fn_base, fn = os.path.split(relpath)
