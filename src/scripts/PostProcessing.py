@@ -151,21 +151,22 @@ class InvocationDetectionTable:
 
 def main():
     parser = argparse.ArgumentParser()
-    subparsers = parser.add_subparsers(help="choose a command", dest='command')
+    subparsers = parser.add_subparsers(help="choose a command", required=True, dest='subcommand')
 
     ad_table_parser = subparsers.add_parser('ad-table', help="Creates an Activity Detection results table")
+    ad_table_parser.add_argument("-o", dest="save_path", default=None, help="Provide the path of a root directory to save the resulting CSV table")
+    ad_table_parser.add_argument("-d", dest="data_dir", type=str, required=True, help="Dataset directory")
 
     id_table_parser = subparsers.add_parser('id-table', help="Creates an Invocation Detection results table")
-
-    parser.add_argument("-d", dest="data_dir", type=str, default="data", help="Dataset directory")
-    parser.add_argument("-o", dest="save_path", default=None, help="To save the resulting item in this path")
+    id_table_parser.add_argument("-o", dest="save_path", default=None, help="Provide the path of a root directory to save the resulting CSV table")
+    id_table_parser.add_argument("-d", dest="data_dir", type=str, required=True, help="Dataset directory")
 
     args = parser.parse_args()
 
-    if args.command == "ad-table":
+    if args.subcommand == "ad-table":
         p = ActivityDetectionTable(data_dir_path=args.data_dir)
         p.run(args.save_path)
-    elif args.command == "id-table":
+    elif args.subcommand == "id-table":
         p = InvocationDetectionTable(data_dir_path=args.data_dir)
         p.run(args.save_path)
 
