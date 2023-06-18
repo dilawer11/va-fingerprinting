@@ -18,7 +18,7 @@ The datasets are available at this link: [https://privacy-datahub.csc.ncsu.edu/v
 
 ## How to setup the datasets
 
-This setup is for all datasets excluding the split we used for *mix_100_alexa*
+This setup is for all datasets **excluding** the split we used for *mix_100_alexa*
 
 After you have downloaded the zipped dataset(s) you can then place them inside the `data` directory. Following command can be used with paths replaced
 

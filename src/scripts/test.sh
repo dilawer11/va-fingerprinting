@@ -4,7 +4,7 @@
 # Define paths
 ACTIVITY_DETECTION_SCRIPT_PATH=src/scripts/ActivityDetection.py
 INVOCATION_DETECTION_SCRIPT_PATH=src/scripts/InvocationDetection.py
-PCAP2CSV_SCRIPT_PATH=src/PCAP2CSV.py
+PCAP2CSV_SCRIPT_PATH=src/scripts/PCAP2CSV.py
 TEST_DATASET_PATH=data/test_dataset
 
 # Clean Up Commands (Uncomment to enable)

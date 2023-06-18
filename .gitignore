@@ -1,4 +1,5 @@
 __pycache__
 data/
+!data/README.md
 src/iotpackage/tts/.gcp_key.json
 
