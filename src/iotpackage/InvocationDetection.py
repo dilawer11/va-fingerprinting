@@ -255,13 +255,12 @@ class ClassifierBase:
         if not data.shape[0]: return res
 
         hostnames = [
-            # TODO: Remove hostnames
-            # 'guzzoni-apple-com.v.aaplimg.com',
-            # 'guzzoni.apple.com',
-            # 'swallow-apple-com.v.aaplimg.com',
-            # 'swallow.apple.com',
-            # 'probe-siri-apple-com.v.aaplimg.com',
-            # 'probe.siri.apple.com',
+            'guzzoni-apple-com.v.aaplimg.com',
+            'guzzoni.apple.com',
+            'swallow-apple-com.v.aaplimg.com',
+            'swallow.apple.com',
+            'probe-siri-apple-com.v.aaplimg.com',
+            'probe.siri.apple.com',
             'dejavu-apple-com.v.aaplimg.com',
             'dejavu.apple.com',
         ]
@@ -465,7 +464,8 @@ class ClassifierTraining(ClassifierBase):
             sw_df = self.minSample(sw_df)
         n_samples = sw_df.shape[0]
         print("# Samples:", n_samples)
-        y = sw_df['label'].reset_index(drop=True)
+        sw_df.reset_index(drop=True, inplace=True)
+        y = sw_df['label']
         print("Extracting Features...")
         X = self.extractFeaturesDF(sw_df)
 
