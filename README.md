@@ -80,8 +80,8 @@ The results will be broken down by model and shown on the terminal stdout. The m
 
 To infer using a trained ML model on a different dataset the following command can be used with appropriate paths set
 
-```console
-$ python3 src/scripts/InvocationDetection.py infer -mi data/{train_dataset} -i data/{test_dataset}
+```sh
+$ python3 src/scripts/InvocationDetection.py infer --mi data/{train_dataset} -i data/{test_dataset}
 ```
 
 ## Activity-Detection
@@ -118,7 +118,7 @@ The results will be displayed at the terminal after the script is done running.
 To evaluate performance on a different dataset than the one trained on use the following commands. Replace `{train_dataset}` with the dataset that you previously trained the models for and the `{test_dataset}` with the dataset that you want to evaluate one.
 
 ```sh
-$ python3 src/scripts/ActivityDetection.py infer -mi data/{train_dataset} -i data/{test_dataset}
+$ python3 src/scripts/ActivityDetection.py infer --mi data/{train_dataset} -i data/{test_dataset}
 ```
 
 # Post-processing (tables)

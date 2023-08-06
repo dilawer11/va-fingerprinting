@@ -14,7 +14,8 @@ There are 7 datasets we have open sourced and provided. You can see the instruct
 
 ## How to access the datasets
 
-The datasets are available at this link: [https://privacy-datahub.csc.ncsu.edu/vafingerprinting]([https://](https://privacy-datahub.csc.ncsu.edu/vafingerprinting)). You can simply open the webpage in a browser and download them 
+The datasets are available at this [link](https://privacy-datahub.csc.ncsu.edu/publication/ahmed-usenix-2023/). You can simply open the webpage in a browser and download them
+
 
 ## How to setup the datasets
 

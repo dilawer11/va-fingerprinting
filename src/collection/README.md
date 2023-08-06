@@ -1,5 +1,11 @@
 # Data Collection
 
+## Introduction
+
+This README deals with data collection setup. Read through the instructions below to complete the setup as used by us during our collection. You can also try to modify the setup based on your own needs. However, in this case results may vary.
+
+To further processing of data and training/testing expects the data to be in a certain format. The dataset is expected to contain two folders in the root directory called "captures" and "invoke_records". The "captures" folder contains the PCAPS (which are expected to be ring-buffered to be 30 minutes length each). The "invoke_records" directory is expected to contain another directory containing the VA name (i.e "Alexa" for Amazon Alexa, "Google" for Google Assistant and "Siri" for Apple Siri). Inside the VA directory each command has it's own directory in which there are JSON files containing invoke records marking important details used during training (such as time when it was invoked and the phrase it was invoked with). If you want to modify things you are suggested to have a look at one of the already collected datasets and the structure to understand. The JSON file names are also important and contains the verified stamp and data for the invoke command. Have a look at the collection script code as well to understand the format for collection
+
 ## Physical Setup
 
 In our paper and evaluations we used a setup consisting of two routers (called Home Router and ISP Router), a Ubuntu desktop, A speaker and 3 Voice Assistant enabled smart speakers (Amazon Echo Plus, Google Nest Mini, and Apple HomePod Mini).

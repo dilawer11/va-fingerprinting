@@ -25,7 +25,7 @@ $ cd va-fingerprinting
 
 ### 1. Download the Docker image
 
-We have provided a Docker image at this [link](https://privacy-datahub.csc.ncsu.edu/vafingerprinting/vafingerprint_di.tar.gz)
+We have provided a Docker image at this [link](https://privacy-datahub.csc.ncsu.edu/data/vafingerprinting/vafingerprint_di.tar.gz)
 
 ### 2. (Optional) Verify SHA checksum
 
